@@ -1,0 +1,117 @@
+/* General Reset and Body Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4; /* Light background for contrast */
+  color: #ce6363; /* Dark text for readability */
+}
+
+/* Flex Container */
+.flex-container {
+  display: flex;
+  align-items: center; /* Center items vertically */
+  margin: 20px;
+}
+
+/* Image Styling */
+.image {
+  border-radius: 15px;
+  width: 25%; /* Adjust width as needed */
+  margin-left: 350px; /* Space between image and form */
+}
+
+
+.container2{
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  
+}
+/* Form Container */
+.form-container {
+  display: flex;
+  flex-direction: column;
+  width: 75%; /* Adjust as needed to fit the layout */
+}
+
+/* Main Container Styles */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  background: #fff; /* White background for the form area */
+  border-radius: 8px; /* Rounded corners */
+}
+
+/* Input Container Styles */
+.input-container {
+margin-left: 4%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  
+}
+
+.form-heading {
+  text-align: center;
+  font-size: 45px;
+  margin-bottom: 20px; /* Space between heading and form elements */
+}
+
+/* Input Styles */
+input[type="email"], input[type="password"] {
+  
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 10px;
+  width: 40%; /* Full-width inputs */
+  
+}
+
+button {
+  
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #000000; /* Button color */
+  color: #fff;
+  font-size: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #333333; /* Darker shade on hover */
+}
+
+/* Feedback Messages */
+#loginTrue, #loginFalse {
+  display: none; /* Hidden by default, will be shown dynamically */
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+#loginTrue {
+  color: #28a745; /* Green color for success */
+}
+
+#loginFalse {
+  color: #dc3545; /* Red color for errors */
+}
+
+/* Link Styles */
+a {
+  color: #007bff; /* Link color matching the button */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+  

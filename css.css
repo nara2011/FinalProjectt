@@ -1,0 +1,52 @@
+/* style.css */
+
+/* Styling for success alert */
+.alert-success {
+    display: none; /* Initially hidden */
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    color: #155724;
+}
+
+/* Styling for danger alert */
+.alert-danger {
+    display: none; /* Initially hidden */
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    color: #721c24;
+}
+
+/* Styling for input container */
+.inputContainer {
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.inputContainer input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.inputContainer button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.inputContainer button:hover {
+    background-color: #0d6efd;
+    color: #fff;
+}
